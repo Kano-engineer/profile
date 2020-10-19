@@ -1,0 +1,102 @@
+body{
+  color: #333;
+  font-family: Verdana, Geneva, sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin:0px;
+}
+
+header{
+background-color: #efefef;
+padding-top: 32px;
+padding-bottom: 32px;
+}
+
+.container{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  display: flex;
+}
+
+.icon{
+margin-left: 32px;
+}
+
+.icon img{
+border-radius: 50%;
+border-width: 4px;
+border-style:solid;
+border-color: white;
+}
+
+.info{
+margin-left: 32px;
+margin: 0;
+margin-bottom: 16px;
+}
+
+.info h1{
+/* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+font-weight: large;
+font-size: 35px;
+margin: 0;
+display: flex;
+}
+
+.info p{
+  font-size: 15px;
+}
+
+.info ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.info ul li{
+margin-right: 8px;
+}
+
+.info img{
+font-size: 30;
+}
+
+.works{
+width: 400px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.works > h1{
+  font-weight: normal;
+  font-size: 25px;
+}
+
+.works h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 35px;
+}
+
+footer p{
+  text-align: center;
+}
+
+#text-button {
+  display: block;
+  cursor: pointer;
+  width: 160px;
+  text-align: center;
+  border: 1px solid #232323;
+}
+
+.footer div{
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  text-align: center;
+}
